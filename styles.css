@@ -23,7 +23,7 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     /*grid-template-rows: 50%;*/
-    background: rgba(255, 255, 255, 0.21);
+    background: rgba(255, 255, 255, 0.068);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -46,7 +46,7 @@ body {
 
 .actual-data {
 
-    color: #bfe2e0;
+    color: #e8f1f2;
     margin: 5% 0 5% 0;
 
 }
@@ -74,10 +74,15 @@ img {
 .img-container {
 
     /*background-color: rgba(255, 228, 196, 0.438);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     justify-self: center;
     align-self: center;
     width: fit-content;
     height: fit-content;
+    color: #e8f1f2;
 }
 
 .forecast-container {
@@ -101,7 +106,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #bfe2e0;
+    color: #e8f1f2;
     margin: 0 7% 0 7%;
 
 }
