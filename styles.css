@@ -110,3 +110,50 @@ img {
     margin: 0 7% 0 7%;
 
 }
+
+
+@media(max-width: 520px){
+
+.item{
+
+font-size: 0.5em
+
+}
+
+.main-container{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.main-container div{
+
+margin: 2%;
+
+}
+
+.main-container div:nth-child(2){
+
+margin-bottom: 2%;
+
+}
+
+.actualData-container{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.date-time-container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+}
+
